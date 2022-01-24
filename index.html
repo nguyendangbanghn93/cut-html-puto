@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Puto</title>
-    <link
+    <!-- <link
       href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
       rel="stylesheet"
-    />
+    /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="./style.css" rel="stylesheet" />
   </head>
   <body>
+    <!-- menu -->
     <div
       class="sticky bg-center bg-cover bg-no-repeat"
       style="background-image: url('./image/head1.png')"
@@ -22,56 +24,282 @@
           <div class="uppercase font-bold ml-5">Trang chủ</div>
           <div class="uppercase font-bold ml-5">Giới thiệu</div>
           <div class="uppercase font-bold ml-5">Liên hệ</div>
-          <div class="uppercase font-bold ml-5 bg-yellow p-1 px-2 rounded-2xl">
+          <div
+            class="uppercase font-bold ml-5 bg-[#FFFF00] p-1 px-2 rounded-2xl"
+          >
             Mua ngay
           </div>
         </div>
       </div>
     </div>
-    <div class="container mx-auto">
-      <h1 class="text-center text-3xl font-bold mt-10 text-brown">
-        <span class="text-yellow-brown">Từ</span> trải nghiệm thực hành
-        <span class="text-yellow-brown">đến</span> tư duy sáng tạo
-      </h1>
-      <img class="mx-auto mt-10 w-8/12" src="./image/banner1.png" alt="" />
-      <h5 class="text-center font-bold text-xl">
-        <span class="text-yellow-brown">*</span> Ứng dụng tiên phong về giáo dục
-        STEAM cho trẻ mầm non
-      </h5>
-
-      <div class="flex justify-center mt-20">
-        <div class="mx-8">
-          <div class="w-full flex justify-center">
-            <div
-              class="uppercase font-bold bg-yellow p-1 p-4 rounded-3xl text-2xl"
-            >
-              Trải nghiệm miễn phí
+    <!-- body -->
+    <!-- ss 1 -->
+    <div
+      class="sticky bg-top bg-cover bg-no-repeat"
+      style="background-image: url('./image/bg1.png')"
+    >
+      <!-- block 1 -->
+      <div class="container mx-auto">
+        <h1 class="text-center text-4xl font-bold pt-10 text-brown">
+          <span class="text-[#D37816]">Từ</span> trải nghiệm thực hành
+          <span class="text-[#D37816]">đến</span> tư duy sáng tạo
+        </h1>
+        <img class="mx-auto mt-10 w-8/12" src="./image/banner1.png" alt="" />
+        <!-- block 2 -->
+        <h5 class="text-center font-bold text-xl">
+          <span class="text-[#D37816]">*</span> Ứng dụng tiên phong về giáo dục
+          STEAM cho trẻ mầm non
+        </h5>
+        <div class="flex justify-center mt-20">
+          <div class="mx-8">
+            <div class="w-full flex justify-center">
+              <div
+                class="uppercase font-bold bg-[yellow] p-4 rounded-3xl text-2xl"
+              >
+                Trải nghiệm miễn phí
+              </div>
+            </div>
+            <div class="w-full flex-wrap flex justify-center mt-5">
+              <img class="mx-3 w-40" src="./image/google.png" alt="" />
+              <img class="mx-3 w-40" src="./image/apple.png" alt="" />
             </div>
           </div>
-
-          <div class="w-full flex-wrap flex justify-center mt-5">
-            <img class="mx-3 w-40" src="./image/google.png" alt="" />
-            <img class="mx-3 w-40" src="./image/apple.png" alt="" />
+          <div class="text-center mx-8">
+            <img class="mx-auto w-32" src="./image/qrcode.png" alt="" />
+            <div>SCAN Mã QR để tải ứng dụng</div>
           </div>
         </div>
-        <div class="text-center mx-8">
-          <img class="mx-auto w-32" src="./image/qrcode.png" alt="" />
-          <div>SCAN Mã QR để tải ứng dụng</div>
+        <!-- block 3 -->
+        <div class="flex justify-center mt-20">
+          <div class="w-2/5 px-5">
+            <h5 class="text-center font-bold text-xl">
+              <span class="text-[#D37816]">*</span> Tương tác đa chiều trên nền
+              tảng công nghệ mô phỏng thực tế
+            </h5>
+            <img src="./image/ipad1.png" alt="" />
+          </div>
+          <div class="w-2/5 px-5">
+            <h5 class="text-center font-bold text-xl">
+              <span class="text-[#D37816]">*</span> Trẻ được tắm tiếng anh thông
+              qua quá trình tương tác lặp đi lặp lại
+            </h5>
+            <img src="./image/ipad2.png" alt="" />
+          </div>
         </div>
       </div>
-      <div class="flex justify-center mt-20">
-        <div class="w-1/3">
-          <h5 class="text-center font-bold text-xl">
-            <span class="text-yellow-brown">*</span> Tương tác đa chiều trên nền
-            tảng công nghệ mô phỏng thực tế
-          </h5>
-          <img src="./image/ipad1.png" alt="" />
+    </div>
+    <!-- ss 2 -->
+    <div
+      class="sticky bg-top bg-cover bg-no-repeat pb-40"
+      style="background-image: url('./image/bg2.png')"
+    >
+      <!-- block 1 -->
+      <div class="container mx-auto pt-56">
+        <h1 class="text-center text-4xl font-bold pt-10 text-brown capitalize">
+          Giáo dục <span class="text-[#D37816] uppercase">STEAM</span> tại nhà
+        </h1>
+        <div class="flex justify-center flex-wrap items-center pt-32">
+          <div class="w-1/3 text-center items-center flex-col flex">
+            <img src="./image/tech.png" alt="" class="mx-auto mb-3" />
+            <h5 class="text-center font-bold text-xl">
+              Technology (Công nghệ)
+            </h5>
+          </div>
+          <div class="w-1/3 text-center items-center flex-col flex -mt-32">
+            <img src="./image/enegineering.png" alt="" class="mx-auto mb-3" />
+            <h5 class="text-center font-bold text-xl">
+              Engineering (Kỹ thuật)
+            </h5>
+          </div>
+          <div class="w-1/3 text-center items-center flex-col flex">
+            <img src="./image/art.png" alt="" class="mx-auto mb-3" />
+            <h5 class="text-center font-bold text-xl">Art (Nghệ thuật)</h5>
+          </div>
+
+          <div class="w-1/3 text-center items-center flex-col flex">
+            <img src="./image/science.png" alt="" class="mx-auto mb-3" />
+            <h5 class="text-center font-bold text-xl">Science (Khoa học)</h5>
+          </div>
+          <div class="w-1/3 text-center items-center flex-col flex -mt-16">
+            <img src="./image/steam.png" alt="" class="mx-auto mb-3" />
+          </div>
+          <div class="w-1/3 text-center items-center flex-col flex">
+            <img src="./image/mart.png" alt="" class="mx-auto mb-3" />
+            <h5 class="text-center font-bold text-xl">Math (Toán)</h5>
+          </div>
         </div>
-        <div class="w-1/3">
-          <h5 class="text-center font-bold text-xl">
-            <span class="text-yellow-brown">*</span> Trẻ được tắm tiếng anh thông qua quá trình tương tác lặp đi lặp lại 
-          </h5>
-          <img src="./image/ipad1.png" alt="" />
+      </div>
+      <!-- block 2 -->
+      <div class="flex justify-center">
+        <div class="text-xl w-1/3">
+          <b>Tiêu chuẩn hoa kỳ</b> - chuẩn Khoa Học thế hệ mới NGSS và Tiêu
+          chuẩn Cốt lõi chung của các bang tại Hoa Kỳ CCSS Môn Toán học dành cho
+          lớp mẫu giáo.
+        </div>
+        <img src="./image/img1.png" alt="" class="ml-5" />
+        <img src="./image/img2.png" alt="" class="ml-5" />
+      </div>
+      <div class="flex justify-center items-center mt-20">
+        <div class="uppercase font-bold bg-[yellow] p-4 rounded-3xl text-2xl">
+          Đăng ký <span class="text- text-red-600">PutoSTEAM</span> ngay
+        </div>
+        <img src="./image/img3.png" alt="" />
+      </div>
+      <h1 class="text-center text-4xl font-bold mt-10 text-indigo-900">
+        Đặc Biệt Bé Được Tắm
+        <span class="bg-white p-2 rounded-3xl">Tiếng Anh</span> Và
+        <span class="bg-white p-2 rounded-3xl">Kĩ Năng</span>
+      </h1>
+      <!-- block 3 -->
+      <div class="flex justify-center mt-10">
+        <img src="./image/eng.png" alt="" />
+        <div
+          class="
+            bg-[aqua]
+            text-2xl
+            font-bold
+            uppercase
+            flex
+            items-center
+            px-5
+            rounded-tr-3xl rounded-br-3xl
+          "
+        >
+          Tiếng anh
+        </div>
+      </div>
+      <div class="justify-center flex flex-wrap">
+        <div class="flex justify-around items-center w-6/12 mt-10">
+          <div class="p-4">
+            <div
+              class="
+                bg-[#734F83]
+                text-white text-xl
+                font-bold
+                p-4
+                rounded-bl-[60px] rounded-br-[60px] rounded-tr-[60px]
+                whitespace-nowrap
+              "
+            >
+              Hơn 700 từ vựng tiếng anh <br />
+              Dựa theo kho từ vựng <br />
+              Của trình độ Starter - kỳ thi Cambridge.
+            </div>
+          </div>
+          <div class="p-4">
+            <div
+              class="
+                bg-[#354F5E]
+                text-white text-xl
+                font-bold
+                p-4
+                rounded-bl-[60px] rounded-br-[60px] rounded-tr-[60px]
+                whitespace-nowrap
+              "
+            >
+              Tương tác đa chiều <br />
+              Học thông qua các trò chơi <br />
+              Thẻ học Flashcard và truyện tương tác. <br />
+              Các từ vựng và câu được lặp đi lặp lại nhiều lần,
+            </div>
+          </div>
+        </div>
+        <div class="w-full p-4 flex justify-center">
+          <div
+            class="
+              bg-[#BC7931]
+              text-white text-xl
+              font-bold
+              p-4
+              rounded-[60px]
+              whitespace-nowrap
+            "
+          >
+            Giúp trẻ hấp thụ ngôn ngữ <br />
+            Một cách tự nhiên và dễ nhớ nhất.
+          </div>
+        </div>
+        <div
+          class="
+            mt-8
+            bg-[aqua]
+            text-2xl
+            font-bold
+            uppercase
+            flex
+            items-center
+            px-5
+            py-1
+            rounded-3xl
+          "
+        >
+          Tiếng anh
+        </div>
+        <div class="w-full flex justify-center">
+          <div
+            class="
+              mt-8
+              bg-[#E8FFF2]
+              text-xl
+              font-bold
+              p-4
+              rounded-2xl
+              whitespace-nowrap
+            "
+          >
+            -Kỹ năng tư duy phản biện
+            <br />
+            -Kỹ năng giải quyết vấn đề
+            <br />
+            -Kỹ năng sáng tạo
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ss3 -->
+    <!-- ss 2 -->
+    <div
+      class="sticky bg-top bg-cover bg-no-repeat translate-y-[-20px]"
+      style="background-image: url('./image/bg3.png')"
+    >
+      <div class="flex justify-center items-center translate-y-[-80px]">
+        <div class="uppercase font-bold bg-[yellow] p-4 rounded-3xl text-2xl">
+          Đăng ký <span class="text- text-red-600">PutoSTEAM</span> ngay
+        </div>
+        <img src="./image/img3.png" alt="" />
+      </div>
+      <div class="flex justify-center pt-20">
+        <div class="relative">
+          <img src="./image/card.png" alt="" />
+          <div
+            class="
+              absolute
+              top-[65%]
+              bottom-0
+              left-[16%]
+              right-[16%]
+              text-xl
+              flex flex-col
+              justify-between
+            "
+          >
+            <div class="">
+              - Với lợi ích 5T mang lại, Puto tự tin mang đến cho trẻ một không
+              gian học tập vô cùng lý tưởng và hấp dẫn,học mà chơi, chơi mà học.
+              <br />
+              - Bằng tương tác đa chiều, trẻ không chỉ được tắm kiến thức "đa
+              nghành" mà còn được tiếp cận một cách rất tự nhiên với môi trường
+              xung quanh để rèn luyện kỹ năng và ngoại ngữ
+            </div>
+            <div class="flex justify-center items-center pb-10">
+              <div
+                class="uppercase font-bold bg-[yellow] p-4 rounded-3xl text-2xl"
+              >
+                Đăng ký <span class="text- text-red-600">PutoSTEAM</span> ngay
+              </div>
+              <img src="./image/img3.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
