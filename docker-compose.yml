@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+    web:
+        container_name: puto-web-container
+        image: puto-web-image
+        restart: always
+        build: .
+        ports:
+            - "8686:80"
+# version: "3"
+# services:
+#   web:
+#     image: puto-web-image
+#     build: .
+#     container_name: puto-web-container
+#     restart: always
+#     ports:
+#       - "8030:80"
