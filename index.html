@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <link href="./style.css" rel="stylesheet" />
@@ -34,60 +34,27 @@
         </div>
         <div
           id="wrap_menu"
-          class="
-            duration-500
-            flex-col
-            w-full
-            items-start
-            fixed
-            top-0
-            left-[100%]
-            sm:left-0
-            bottom-0
-            bg-white
-            sm:flex
-            sm:justify-between
-            sm:items-center
-            sm:w-9/12
-            sm:relative
-            sm:bg-transparent
-            sm:flex-row
-          "
+          class="duration-500 flex-col w-full items-start fixed top-0 left-[100%] sm:left-0 bottom-0 bg-white sm:flex sm:justify-between sm:items-center sm:w-9/12 sm:relative sm:bg-transparent sm:flex-row"
         >
           <div
-            class="
-              bg-center bg-cover bg-no-repeat
-              p-5
-              w-full
-              justify-end
-              flex
-              sm:hidden
-            "
+            class="bg-center bg-cover bg-no-repeat p-5 w-full justify-end flex sm:hidden"
             style="background-image: url('./image/head1.png')"
           >
             <img id="btn_menu_close" src="./image/menu.png" width="30" alt="" />
           </div>
-          <a href="#" class="p-3 sm:p-0 uppercase font-bold whitespace-nowrap">
+          <a href="#" class="p-3 sm:p-0 uppercase font-bold whitespace-nowrap block">
             Trang chủ
           </a>
-          <a href="#" class="p-3 sm:p-0 uppercase font-bold whitespace-nowrap">
+          <a href="#" class="p-3 sm:p-0 uppercase font-bold whitespace-nowrap block">
             Giới thiệu
           </a>
-          <a href="#" class="p-3 sm:p-0 uppercase font-bold whitespace-nowrap">
+          <a href="#" class="p-3 sm:p-0 uppercase font-bold whitespace-nowrap block">
             Liên hệ
           </a>
           <div class="p-3 sm:p-0">
             <a
               href="#"
-              class="
-                uppercase
-                font-bold
-                whitespace-nowrap
-                bg-[#FFFF00]
-                p-2
-                px-2
-                rounded-2xl
-              "
+              class="uppercase font-bold whitespace-nowrap bg-[#FFFF00] p-2 px-2 rounded-2xl"
             >
               Mua ngay
             </a>
@@ -99,57 +66,44 @@
     <main>
       <!-- ss 1 -->
       <div
-        class="bg-top bg-cover bg-no-repeat"
-        style="background-image: url('./image/bg1.png')"
+        class="bg-top bg-contain sm:bg-cover bg-no-repeat bg-[url('./image/bgrs1.png')] sm:bg-[url('./image/bg1.png')]"
       >
         <!-- block 1 -->
         <div class="container mx-auto">
           <h1
-            class="
-              text-center text-2xl
-              sm:text-4xl
-              font-bold
-              pt-10
-              text-[#73370B]
-              p-2
-              sm:pt-16
-            "
+            class="text-center text-2xl capitalize sm:text-4xl font-bold pt-6 sm:pt-10 text-[#73370B] p-2 sm:pt-16"
           >
             <span class="text-[#D37816]">Từ</span> trải nghiệm thực hành
             <span class="text-[#D37816]">đến</span> tư duy sáng tạo
           </h1>
-          <img class="mx-auto mt-10 w-8/12" src="./image/banner1.png" alt="" />
+          <img
+            class="mx-auto mt-3 sm:mt-10 w-full sm:w-8/12"
+            src="./image/banner1.png"
+            alt=""
+          />
           <!-- block 2 -->
-          <h5 class="text-center font-bold text-sm sm:text-xl p-2 sm:p-0">
-            <span class="text-[#D37816]">*</span> Ứng dụng tiên phong về giáo
+          <h5 class="sm:text-center font-bold text-sm sm:text-xl p-2 sm:p-0">
+            <span class="text-[#D37816]">★</span> Ứng dụng tiên phong về giáo
             dục STEAM cho trẻ mầm non
           </h5>
           <div
-            class="flex justify-center mt-5 sm:mt-8 flex-wrap sm:flex-nowrap"
+            class="flex justify-center mt-2 sm:mt-8 flex-wrap sm:flex-nowrap"
           >
-            <div class="mx-8">
+            <div class="sm:mx-8">
               <div class="w-full flex justify-center">
                 <a
                   href="#"
-                  class="
-                    uppercase
-                    font-bold
-                    bg-[yellow]
-                    p-4
-                    rounded-3xl
-                    text-xl
-                    sm:text-2xl
-                  "
+                  class="font-roboto uppercase font-bold font bg-[yellow] px-6 p-4 rounded-3xl text-2xl"
                 >
                   Trải nghiệm miễn phí
                 </a>
               </div>
               <div class="w-full sm:flex-wrap flex justify-center mt-5">
-                <a href="#" class="px-3 w-40"
-                  ><img src="./image/google.png" alt=""
+                <a href="#" class="px-3 w-1/2 sm:w-40 "
+                  ><img src="./image/google.png" class="w-full" alt=""
                 /></a>
-                <a href="#" class="px-3 w-40"
-                  ><img src="./image/apple.png" alt=""
+                <a href="#" class="px-3 w-1/2 sm:w-40 "
+                  ><img src="./image/apple.png" class="w-full" alt=""
                 /></a>
               </div>
             </div>
@@ -161,38 +115,30 @@
           <!-- block 3 -->
           <div class="flex flex-wrap justify-center mt-5 sm:mt-20">
             <div class="sm:w-2/5 px-5">
-              <h5 class="text-center font-bold mb-3 text-sm sm:text-xl">
-                <span class="text-[#D37816]">*</span> Tương tác đa chiều trên
+              <h5 class="sm:text-center font-bold mb-3 text-sm sm:text-xl">
+                <span class="text-[#D37816]">★</span> Tương tác đa chiều trên
                 nền tảng công nghệ mô phỏng thực tế
               </h5>
-              <img src="./image/ipad1.png" alt="" />
+              <img src="./image/ipad2.png" alt="" />
             </div>
             <div class="sm:w-2/5 px-5">
-              <h5 class="text-center font-bold mb-3 text-sm sm:text-xl">
-                <span class="text-[#D37816]">*</span> Trẻ được tắm tiếng anh
+              <h5 class="sm:text-center font-bold mb-3 text-sm sm:text-xl">
+                <span class="text-[#D37816]">★</span> Trẻ được tắm tiếng anh
                 thông qua quá trình tương tác lặp đi lặp lại
               </h5>
-              <img src="./image/ipad2.png" alt="" />
+              <img src="./image/ipad1.png" alt="" />
             </div>
           </div>
         </div>
       </div>
       <!-- ss 2 -->
       <div
-        class="bg-top bg-cover bg-no-repeat pb-20 sm:pb-40"
-        style="background-image: url('./image/bg2.png')"
+        class="bg-[center_top_1rem] sm:bg-top bg-cover bg-no-repeat pb-20 sm:pb-40 bg-[url('./image/bgrs2.png')] sm:bg-[url('./image/bg2.png')]"
       >
         <!-- block 1 -->
-        <div class="container mx-auto sm:pt-56">
+        <div class="container mx-auto pt-10 sm:pt-56">
           <h1
-            class="
-              text-center text-2xl
-              sm:text-4xl
-              font-bold
-              sm:pt-10
-              text-[#73370B]
-              capitalize
-            "
+            class="text-center text-2xl sm:text-4xl font-bold sm:pt-10 text-[#73370B] capitalize"
           >
             Giáo dục <span class="text-[#D37816] uppercase">STEAM</span> tại nhà
           </h1>
@@ -236,22 +182,13 @@
           </div>
 
           <div class="flex sm:hidden justify-center flex-wrap items-center">
-            <div class="w-7/12 text-center items-center flex-col flex">
+            <div class="w-9/12 text-center items-center flex-col flex">
               <img src="./image/steam.png" alt="" class="mx-auto mb-3" />
             </div>
             <div class="w-1/2 text-center items-center flex-col flex">
               <img src="./image/tech.png" alt="" class="mx-auto mb-3" />
               <h5
-                class="
-                  text-center
-                  font-bold
-                  text-sm
-                  sm:text-xl
-                  bg-white
-                  p-1
-                  px-3
-                  rounded-xl
-                "
+                class="text-center font-bold text-sm sm:text-xl bg-white p-1 px-3 rounded-xl whitespace-nowrap "
               >
                 Technology (Công nghệ)
               </h5>
@@ -259,16 +196,7 @@
             <div class="w-1/2 text-center items-center flex-col flex">
               <img src="./image/science.png" alt="" class="mx-auto mb-3" />
               <h5
-                class="
-                  text-center
-                  font-bold
-                  text-sm
-                  sm:text-xl
-                  bg-white
-                  p-1
-                  px-3
-                  rounded-xl
-                "
+                class="text-center font-bold text-sm sm:text-xl bg-white p-1 px-3 rounded-xl whitespace-nowrap "
               >
                 Science (Khoa học)
               </h5>
@@ -276,16 +204,7 @@
             <div class="w-1/2 text-center items-center flex-col flex">
               <img src="./image/enegineering.png" alt="" class="mx-auto mb-3" />
               <h5
-                class="
-                  text-center
-                  font-bold
-                  text-sm
-                  sm:text-xl
-                  bg-white
-                  p-1
-                  px-3
-                  rounded-xl
-                "
+                class="text-center font-bold text-sm sm:text-xl bg-white p-1 px-3 rounded-xl whitespace-nowrap "
               >
                 Engineering (Kỹ thuật)
               </h5>
@@ -293,16 +212,7 @@
             <div class="w-1/2 text-center items-center flex-col flex">
               <img src="./image/art.png" alt="" class="mx-auto mb-3" />
               <h5
-                class="
-                  text-center
-                  font-bold
-                  text-sm
-                  sm:text-xl
-                  bg-white
-                  p-1
-                  px-3
-                  rounded-xl
-                "
+                class="text-center font-bold text-sm sm:text-xl bg-white p-1 px-3 rounded-xl whitespace-nowrap "
               >
                 Art (Nghệ thuật)
               </h5>
@@ -310,16 +220,7 @@
             <div class="w-1/3 text-center items-center flex-col flex">
               <img src="./image/mart.png" alt="" class="mx-auto mb-3" />
               <h5
-                class="
-                  text-center
-                  font-bold
-                  text-sm
-                  sm:text-xl
-                  bg-white
-                  p-1
-                  px-3
-                  rounded-xl
-                "
+                class="text-center font-bold text-sm sm:text-xl bg-white p-1 px-3 rounded-xl whitespace-nowrap "
               >
                 Math (Toán)
               </h5>
@@ -328,11 +229,11 @@
         </div>
 
         <!-- block 2 -->
-        <div class="sm:hidden flex flex-col items-center justify-center">
+        <div class="sm:hidden flex flex-col items-center justify-center -mt-10 sm:mt-0">
           <div class="flex justify-end min-w-[300px]">
             <img src="./image/img3.png" alt="" width="60" />
           </div>
-          <div class="w-fit font-bold bg-[yellow] p-2 rounded-3xl text-xl">
+          <div class="w-fit font-bold bg-[yellow] px-5 sm:px-2 p-2 rounded-3xl text-xl">
             ĐĂNG KÝ <span class="text- text-red-600">PutoSTEAM</span> NGAY
           </div>
         </div>
@@ -352,22 +253,14 @@
           <img src="./image/img3.png" alt="" />
         </div>
         <h1
-          class="
-            text-center text-2xl
-            sm:text-4xl
-            font-bold
-            mt-3
-            sm:mt-10
-            text-indigo-900
-            p-2
-          "
+          class="text-center text-2xl sm:text-4xl font-bold mt-3 sm:mt-10 text-indigo-900 p-2"
         >
           Đặc Biệt Bé Được Tắm
-          <span class="bg-white whitespace-nowrap p-0 sm:p-2 rounded-3xl"
+          <span class="bg-white text-[aqua] whitespace-nowrap p-1 sm:p-2 rounded-3xl"
             >Tiếng Anh</span
           >
           Và
-          <span class="bg-white whitespace-nowrap p-0 sm:p-2 rounded-3xl"
+          <span class="bg-white text-[aqua] whitespace-nowrap p-1 sm:p-2 rounded-3xl"
             >Kĩ Năng</span
           >
         </h1>
@@ -379,58 +272,27 @@
             class="w-[40px] sm:w-auto object-cover"
           />
           <div
-            class="
-              bg-[aqua]
-              text-xl
-              sm:text-2xl
-              font-semibold
-              sm:font-bold
-              uppercase
-              flex
-              items-center
-              px-5
-              rounded-tr-3xl rounded-br-3xl
-            "
+            class="bg-[aqua] text-xl sm:text-2xl font-semibold sm:font-bold uppercase flex items-center px-5 rounded-tr-3xl rounded-br-3xl"
           >
             Tiếng anh
           </div>
         </div>
-        <div class="justify-center flex flex-wrap">
+        <div class="justify-center flex flex-wrap relative ">
           <div
-            class="
-              flex flex-wrap
-              md:flex-nowrap
-              justify-around
-              items-center
-              w-full
-              mt-10
-            "
+            class="flex flex-wrap md:flex-nowrap justify-around items-center w-full mt-10"
           >
-            <div class="p-4 max-w-[98%]">
+            <div class="p-2 max-w-[98%]">
               <div
-                class="
-                  bg-[#734F83]
-                  text-white
-                  sm:text-xl sm:font-bold
-                  p-8
-                  rounded-bl-[60px] rounded-br-[60px] rounded-tr-[60px]
-                "
+                class="bg-[#734F83] text-white text-sm sm:text-xl sm:font-bold  p-4 sm:p-8 rounded-bl-[60px] rounded-br-[60px] rounded-tr-[60px]"
               >
                 Hơn 700 từ vựng tiếng anh <br />
                 Dựa theo kho từ vựng <br />
                 Của trình độ Starter - kỳ thi Cambridge.
               </div>
             </div>
-            <div class="p-4 max-w-[98%]">
+            <div class="p-2 sm:p-4 sm:max-w-[98%]">
               <div
-                class="
-                  bg-[#354F5E]
-                  text-white
-                  sm:text-xl sm:font-bold
-                  p-8
-                  rounded-tl-[60px] rounded-bl-[60px] rounded-br-[60px]
-                  sm:rounded-bl-[60px] sm:rounded-br-[60px]
-                "
+                class="bg-[#354F5E] text-white text-sm sm:text-xl sm:font-bold  p-4 sm:p-8 rounded-tl-[60px] rounded-bl-[60px] rounded-br-[60px] sm:rounded-bl-[60px] sm:rounded-br-[60px]"
               >
                 Tương tác đa chiều <br />
                 Học thông qua các trò chơi <br />
@@ -439,54 +301,27 @@
               </div>
             </div>
           </div>
-          <div class="w-full p-4 flex justify-center max-w-[98%]">
+          <div class="w-full p-4 flex justify-center max-w-[98%] relative z-[1]">
             <div
-              class="
-                bg-[#BC7931]
-                text-white
-                sm:text-xl sm:font-bold
-                p-8
-                rounded-[60px]
-              "
+              class="bg-[#BC7931] text-white text-sm sm:text-xl sm:font-bold  p-4 sm:p-8 rounded-[60px]"
             >
               Giúp trẻ hấp thụ ngôn ngữ <br />
               Một cách tự nhiên và dễ nhớ nhất.
             </div>
           </div>
-          <div class="sm:hidden w-full flex justify-center mt-2">
+          <div class="sm:hidden w-full flex justify-center mt-2 relative z-[1]">
             <div class="pl-32">
               <img src="./image/img4.png" width="150" class="" alt="" />
             </div>
           </div>
           <div
-            class="
-              sm:mt-8
-              bg-[aqua]
-              sm:text-2xl
-              font-semibold
-              sm:font-bold
-              uppercase
-              flex
-              items-center
-              px-5
-              py-1
-              rounded-3xl
-            "
+            class="sm:mt-8 bg-[aqua] sm:text-2xl font-semibold sm:font-bold uppercase flex items-center px-5 py-1 rounded-3xl relative z-[1]"
           >
             Kỹ năng
           </div>
-          <div class="w-full flex justify-center">
+          <div class="w-full flex justify-center relative z-[1]">
             <div
-              class="
-                mt-8
-                bg-[#E8FFF2]
-                sm:text-xl
-                font-semibold
-                sm:font-bold
-                p-4
-                rounded-2xl
-                whitespace-nowrap
-              "
+              class="mt-8 bg-[#E8FFF2] sm:text-xl font-semibold sm:font-bold p-4 rounded-2xl whitespace-nowrap"
             >
               -Kỹ năng tư duy phản biện
               <br />
@@ -495,11 +330,13 @@
               -Kỹ năng sáng tạo
             </div>
           </div>
+          <img class="absolute sm:hidden bottom-[-140px] left-0 right-0 h-[300px]" src="./image/beach.png" alt="">
+
         </div>
       </div>
       <!-- ss3 -->
       <div
-        class="bg-top bg-cover bg-no-repeat -mt-12 pb-10 sm:pb-28"
+        class="bg-top bg-cover bg-no-repeat -mt-12 pb-10 sm:pb-28 relative z-[1]"
         style="background-image: url('./image/bg3.png')"
       >
         <!-- block 1 -->
@@ -519,16 +356,7 @@
           <div class="relative sm:w-full md:w-full lg:w-2/3">
             <img class="w-full" src="./image/card.png" alt="" />
             <div
-              class="
-                absolute
-                top-[65%]
-                bottom-0
-                left-[16%]
-                right-[16%]
-                text-xl
-                flex flex-col
-                justify-between
-              "
+              class="absolute top-[65%] bottom-0 left-[16%] right-[16%] text-xl flex flex-col justify-between"
             >
               <div class="font-bold sm:text-xs md:text-sm xl:text-xl">
                 - Với lợi ích 5T mang lại, Puto tự tin mang đến cho trẻ một
@@ -542,15 +370,7 @@
               <div class="flex justify-center items-center pb-10">
                 <a
                   href="#"
-                  class="
-                    uppercase
-                    font-bold
-                    bg-[yellow]
-                    p-4
-                    rounded-3xl
-                    sm:text-sm
-                    xl:text-2xl
-                  "
+                  class="uppercase font-bold bg-[yellow] p-4 rounded-3xl sm:text-sm xl:text-2xl"
                 >
                   Đăng ký <span class="text-red-600">PutoSTEAM</span> ngay
                 </a>
@@ -578,31 +398,14 @@
           </div>
         </div>
         <h1
-          class="
-            text-3xl
-            sm:text-5xl
-            text-center
-            capitalize
-            font-bold
-            mt-5
-            sm:mt-10
-            leading-[1.5em]
-            text-[#1B2F72]
-          "
+          class="text-3xl sm:text-5xl text-center capitalize font-bold mt-5 sm:mt-10 leading-[1.5em] text-[#1B2F72]"
         >
           Số lượng còn lại <br />
-          38
+          <span class="text-5xl">38</span>
         </h1>
         <div class="hidden sm:flex justify-center mt-5">
           <div
-            class="
-              flex
-              bg-orange-500
-              rounded-xl
-              bg-gradient-to-b
-              from-orange-400
-              text-white
-            "
+            class="flex bg-orange-500 rounded-xl bg-gradient-to-b from-orange-400 text-white"
           >
             <div id="countDay" class="p-3 font-semibold min-w-[100px] px-5">
               0 ngày
@@ -619,67 +422,37 @@
           </div>
         </div>
         <form
-          class="
-            flex flex-wrap
-            sm:flex-nowrap
-            relative
-            justify-center
-            -mt-14
-            sm:mt-20
-            px-8
-          "
+          class="flex flex-wrap sm:flex-nowrap relative justify-center -mt-14 sm:mt-20 px-5 sm:px-8"
         >
           <div class="sm:hidden w-full flex justify-end -mb-[40%]">
             <img width="150" src="./image/img5.png" alt="" />
           </div>
           <div
-            class="
-              bg-red-600
-              rounded-3xl
-              py-5
-              sm:py-10
-              px-4
-              sm:px-20
-              flex flex-col
-            "
+            class="bg-[#FF000A] rounded-[50px] py-5 sm:py-10 px-12 sm:px-20 flex flex-col"
           >
             <h1
-              class="
-                text-white
-                uppercase
-                text-center text-xl
-                sm:text-3xl
-                font-bold
-              "
+              class="text-white uppercase text-center text-2xl sm:text-3xl font-bold font-roboto min-w-[260px]"
             >
-              Đăng ký nhận ưu đãi ngay
+              Đăng ký nhận ưu đãi
             </h1>
             <input
               type="text"
-              class="mt-5 p-2 sm:p-3 rounded-2xl"
+              class="mt-2 sm:mt-5 p-1 sm:p-3 rounded-lg sm:rounded-2xl"
               placeholder="Họ và tên ba mẹ"
             />
             <input
               type="text"
-              class="mt-5 p-2 sm:p-3 rounded-2xl"
+              class="mt-2 sm:mt-5 p-1 sm:p-3 rounded-lg sm:rounded-2xl"
               placeholder="SĐT Liên hệ"
             />
             <input
               type="text"
-              class="mt-5 p-2 sm:p-3 rounded-2xl"
+              class="mt-2 sm:mt-5 p-1 sm:p-3 rounded-lg sm:rounded-2xl"
               placeholder="Email"
             />
             <div class="flex justify-center items-center pt-3 sm:pt-10">
               <button
-                class="
-                  uppercase
-                  font-bold
-                  bg-[yellow]
-                  p-2
-                  sm:p-4
-                  rounded-3xl
-                  text-2xl
-                "
+                class="uppercase font-bold bg-[yellow] p-2 sm:p-4 rounded-3xl text-2xl"
               >
                 Đăng ký ngay
               </button>
@@ -690,12 +463,7 @@
     </main>
     <!-- footer -->
     <footer
-      class="
-        bg-cover bg-no-repeat
-        -mt-5
-        bg-[url('./image/footer.png')]
-        sm:bg-top
-      "
+      class="bg-cover bg-no-repeat -mt-5 bg-[url('./image/footer.png')] sm:bg-top"
     >
       <div class="p-3 sm:p-5 flex justify-center">
         <img
@@ -707,7 +475,7 @@
       </div>
       <div class="container mt-1 sm:mt-16 mx-auto">
         <div class="flex sm:justify-center flex-wrap">
-          <div class="w-full sm:w-1/4 p-2 flex justify-center sm:block">
+          <div class="w-full sm:w-1/4 pl-5 sm:pl-2 p-2 flex justify-center sm:block">
             <a href="/" class="flex justify-center">
               <img class="w-[150px]" src="./image/Logo2.png" alt="" />
             </a>
@@ -720,16 +488,9 @@
               </a>
             </div>
           </div>
-          <div class="w-1/2 sm:w-1/4 p-2">
+          <div class="w-1/2 sm:w-1/4 pl-5 sm:pl-2 p-2">
             <h1
-              class="
-                uppercase
-                text-[#FF9E45]
-                sm:text-xl
-                font-semibold
-                sm:font-bold
-                mb-6
-              "
+              class="uppercase text-[#FF9E45] sm:text-xl font-semibold sm:font-bold mb-6"
             >
               Về puto
             </h1>
@@ -740,108 +501,52 @@
               Giới Thiệu
             </a>
           </div>
-          <div class="w-1/2 sm:w-1/4 p-2">
+          <div class="w-1/2 sm:w-1/4 pl-5 sm:pl-2 p-2">
             <h1
-              class="
-                uppercase
-                text-[#FF9E45]
-                sm:text-xl
-                font-semibold
-                sm:font-bold
-                mb-6
-              "
+              class="uppercase text-[#FF9E45] sm:text-xl font-semibold sm:font-bold mb-6"
             >
               Hỗ trợ
             </h1>
             <a
               href="/"
-              class="
-                text-[#FF9E45]
-                capitalize
-                text-sm
-                sm:font-medium
-                mb-2
-                block
-              "
+              class="text-[#FF9E45] capitalize text-sm sm:font-medium mb-2 block"
             >
               Điều khoản sử dụng
             </a>
             <a
               href="/"
-              class="
-                text-[#FF9E45]
-                capitalize
-                text-sm
-                sm:font-medium
-                mb-2
-                block
-              "
+              class="text-[#FF9E45] capitalize text-sm sm:font-medium mb-2 block"
             >
               Chính sách bảo mật
             </a>
             <a
               href="/"
-              class="
-                text-[#FF9E45]
-                capitalize
-                text-sm
-                sm:font-medium
-                mb-2
-                block
-              "
+              class="text-[#FF9E45] capitalize text-sm sm:font-medium mb-2 block"
             >
               Cách thức thanh toán
             </a>
             <a
               href="/"
-              class="
-                text-[#FF9E45]
-                capitalize
-                text-sm
-                sm:font-medium
-                mb-2
-                block
-              "
+              class="text-[#FF9E45] capitalize text-sm sm:font-medium mb-2 block"
             >
               Câu hỏi thường gặp
             </a>
           </div>
-          <div class="w-1/2 sm:w-1/4 p-2 -mt-16 sm:mt-0">
+          <div class="w-1/2 sm:w-1/4 pl-5 sm:pl-2 p-2 -mt-16 sm:mt-0">
             <h1
-              class="
-                uppercase
-                text-[#FF9E45]
-                sm:text-xl
-                font-semibold
-                sm:font-bold
-                mb-6
-              "
+              class="uppercase text-[#FF9E45] sm:text-xl font-semibold sm:font-bold mb-6"
             >
               Liên hệ
             </h1>
             <a
               href="phone:0900"
-              class="
-                text-[#FF9E45]
-                capitalize
-                text-sm
-                sm:font-medium
-                mb-2
-                block
-              "
+              class="text-[#FF9E45] capitalize text-sm sm:font-medium mb-2 block"
             >
               Hotline: 19008825
             </a>
             <a
               href="mailto:puto.edtech@gmail.com"
-              class="
-                text-[#FF9E45]
-                capitalize
-                text-sm
-                sm:font-medium
-                mb-2
-                block
-              "
+              class="text-[#FF9E45] capitalize text-sm sm:font-medium mb-2 block"
             >
               Email: puto.edtech@gmail.com
             </a>
@@ -871,7 +576,7 @@
           </div>
         </div>
       </div>
-      <div class="border-t border-t-slate-800">
+      <div class="border-t border-t-slate-800 pl-5 sm:pl-2">
         <div class="container mx-auto">
           <p
             class="text-[#FF9E45] leading-loose p-2 sm:py-12 text-sm sm:text-md"
